@@ -1,8 +1,4 @@
 import board from "../../images/bord2.png";
-import step from "../../images/step.png";
-import daysbook from "../../images/30daysbook.jpg";
-import onepage_computer_min from "../../images/onepage_computer-min.png";
-import OFA_Testimonials_1_1_min from "../../images/OFA-Testimonials_1.1-min.png";
 import triangle2 from "../../images/triangle2.png";
 import "./Hsection7.css";
 import Profile from "../Others/Profile";

@@ -1,15 +1,6 @@
-import board from "../../images/bord2.png";
-import step from "../../images/step.png";
-import daysbook from "../../images/30daysbook.jpg";
-import onepage_computer_min from "../../images/onepage_computer-min.png";
-import OFA_Testimonials_1_1_min from "../../images/OFA-Testimonials_1.1-min.png";
-import two from "../../images/two.png";
-
 import img1 from "../../images/OFA-BUNDLE-Product-mockup2-min.png";
-import img2 from "../../images/OFA_Stack.png";
 import img3 from "../../images/funnel-auidible-BUMP-Graphic.png";
 
-import { BiDownArrow } from "react-icons/bi";
 import { AiFillLock } from "react-icons/ai";
 import img4 from "../../images/credit-only.png";
 

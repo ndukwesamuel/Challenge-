@@ -1,7 +1,4 @@
-import React from 'react'
-
-import img2 from '../../dynami/Vector 1.png'
-import img3 from '../../dynami/Group 41.png'
+import React from "react";
 
 function HomeDex() {
   return (
@@ -17,7 +14,7 @@ function HomeDex() {
         </p>
       </div>
     </div>
-  )
+  );
 }
 
-export default HomeDex
+export default HomeDex;

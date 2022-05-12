@@ -1,6 +1,4 @@
 import "./Hsection6.css";
-import two from "../../images/two.png";
-import testimony from "../../images/OFA-Testimonials_1.1-min.png";
 import Profile from "../Others/Profile";
 import onepage_computer_min from "../../images/onepage_computer-min.png";
 

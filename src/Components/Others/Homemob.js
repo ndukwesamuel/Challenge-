@@ -1,7 +1,4 @@
-import React from 'react'
-
-// import img2 from '../../dynami/Vector 1.png'
-import img3 from '../../dynami/Group 41.png'
+import React from "react";
 
 function Homemob() {
   return (
@@ -16,10 +13,9 @@ function Homemob() {
         <p className="Homemob_div_p3">
           And We'll Walk You Through it Step-by-Step
         </p>
-        {/* <img className="Homemob_div_img" src={img3} alt="" />  */}
       </div>
     </div>
-  )
+  );
 }
 
-export default Homemob
+export default Homemob;
