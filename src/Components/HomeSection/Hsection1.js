@@ -1,42 +1,31 @@
 import { useEffect, useState } from "react";
 
+import { getRemainingTimeUntilMsTimestamp } from "../CountDown/CountdownTimerUtils";
+
 let Hsection1_img =
   "https://res.cloudinary.com/dkzds0azx/image/upload/v1652279294/oneful/images/bord2_grrhsc.png";
 
 let main_vid =
   "https://res.cloudinary.com/dkzds0azx/video/upload/v1652279055/oneful/video/Covenants_soqpyn.mp4";
-const Hsection1 = () => {
-  const countDown = () => {
-    const countDate = new Date("April 17, 2022 00:00:00").getTime();
-    const today = new Date().getTime();
-    const difference = countDate - today;
 
-    const second = 1000;
-    const minute = second * 60;
-    const hour = minute * 60;
-    const day = hour * 24;
-
-    const textDay = Math.floor(difference / day);
-    const textHour = Math.floor((difference % day) / hour);
-    const textMinute = Math.floor((difference % hour) / minute);
-    const textSecond = Math.floor((difference % minute) / second);
-
-    document.querySelector(".day").textContent = textDay;
-    document.querySelector(".hour").textContent = textHour;
-    document.querySelector(".minute").textContent = textMinute;
-    document.querySelector(".second").textContent = textSecond;
-  };
-
+const defaultRemainingTime = {
+  seconds: "00",
+  minutes: "00",
+  hours: "00",
+  days: "00",
+};
+const Hsection1 = ({ countdownTimestampMs }) => {
+  const [remainingTime, setRemainingTime] = useState(defaultRemainingTime);
   useEffect(() => {
-    setInterval(countDown, 1000);
+    const intervalId = setInterval(() => {
+      updateRemainingTime(countdownTimestampMs);
+    }, 1000);
+    return () => clearInterval(intervalId);
+  }, [countdownTimestampMs]);
 
-    return () => {};
-  }, []);
-
-  // const [days, setDays] = useState(textDay);
-  // const [hours, setHours] = useState("");
-  // const [minutes, setMinutes] = useState("");
-  // const [seconds, setSeconds] = useState("");
+  function updateRemainingTime(countdown) {
+    setRemainingTime(getRemainingTimeUntilMsTimestamp(countdown));
+  }
 
   return (
     <>
@@ -72,22 +61,22 @@ const Hsection1 = () => {
 
                 <div className=" Hsection1_count_down">
                   <div className="Hsection1_count_down_flex_item">
-                    <div className="day"></div>
+                    <div className="day">{remainingTime.days} </div>
                     <p>Days</p>
                   </div>
 
                   <div className="Hsection1_count_down_flex_item">
-                    <div className="hour"> </div>
+                    <div className="hour">{remainingTime.hours} </div>
                     <p>hours</p>
                   </div>
 
                   <div className="Hsection1_count_down_flex_item">
-                    <div className="minute"> </div>
+                    <div className="minute">{remainingTime.minutes} </div>
                     <p>minute</p>
                   </div>
 
                   <div className="Hsection1_count_down_flex_item">
-                    <div className="second"></div>
+                    <div className="second">{remainingTime.seconds}</div>
                     <p>Seconds</p>
                   </div>
                 </div>

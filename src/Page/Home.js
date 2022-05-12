@@ -15,6 +15,8 @@ import HomeDex from "../Components/Others/HomeDex";
 import Homemob from "../Components/Others/Homemob";
 
 import "./Home.css";
+import { useCountdown } from "../Components/useCountdown";
+console.log(useCountdown);
 
 const Home = () => {
   return (
@@ -33,7 +35,7 @@ const Home = () => {
           </div>
         </div>
 
-        <Hsection1 />
+        <Hsection1 countdownTimestampMs={1659983662000} />
       </div>
 
       <div>
