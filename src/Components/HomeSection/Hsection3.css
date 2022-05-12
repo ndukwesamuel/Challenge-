@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+.Hsection3 {
+  padding-top: 70px;
+}
+
+.Hsection3_h1_1 {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 900;
+  color: var(--prymary-bg-clr);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Hsection3_div_border {
+  border: 2px solid black;
+  padding-top: 2rem;
+}
+
+.Hsection3_div_border img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.Hsection3_div_border_OFA {
+  margin-top: 1rem;
+}
+
+.Hsection3_list ul {
+  margin-left: 2em;
+}
+
+.Hsection3_list li {
+  font-size: 1.3em;
+}
+
+.Hsection3_price_value {
+  color: red;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.Hsection3_button_div {
+  margin-left: 2em;
+}
+
+.Hsection3_button_div div {
+  margin-bottom: 1em;
+}
+
+.Hsection3_button_div button {
+  background-color: red;
+  color: white;
+}
+
+.Hsection3_button_div div span {
+  font-size: 1.5em;
+}
+
+.Hsection3_value {
+  font-size: 3em;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Hsection3_p_value {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.Hsection3_p_value_1 {
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: 900;
+  color: var(--prymary-bg-clr);
+}
+
+.Hsection3_p_value_Accept {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  color: var(--prymary-bg-clr);
+}
+
+.Hsection3_join_Challenge {
+  background-color: var(--btn-clr);
+  color: white;
+  display: block;
+  margin: auto;
+  width: 90%;
+  margin-bottom: 1rem;
+}
+
+.Hsection3_join_Challenge_p1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  /* margin-bottom: -10px; */
+}
+
+.Hsection3_join_Challenge_p2 {
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.Hsection3_information :first-child {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  color: #002462;
+  padding: 0 3rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+
+.Hsection3_information :last-child {
+  font-size: 2em;
+  text-align: center;
+  color: #002462;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .Hsection3_h1_1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 900;
+    color: var(--prymary-bg-clr);
+  }
+
+  .Hsection3_div_border_OFA {
+    margin-top: 2rem;
+  }
+
+  .Hsection3_join_Challenge_p1 {
+    font-size: 2rem;
+  }
+
+  .Hsection3_join_Challenge_p2 {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .Hsection3_p_value {
+    font-size: 2rem;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .Hsection3_h1_1 {
+    font-size: 3rem;
+  }
+
+  .Hsection3_information :first-child {
+    font-size: 3.1rem;
+    font-weight: 900;
+    padding: 0 3.5rem;
+    line-height: 3rem;
+  }
+
+  .Hsection3_information :last-child {
+    font-size: 3rem;
+    text-align: center;
+    padding: 0 3.5rem;
+    line-height: 3rem;
+  }
+  .Hsection3_join_Challenge_p1{
+    font-size: 4rem;
+  }
+  .Hsection3_join_Challenge_p2{
+    font-size: 1.4rem;
+  }
+  .Hsection3_p_value_1{
+    font-size: 2rem;
+  }
+  .Hsection3_p_value_Accept{
+    font-size: 2rem;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .Hsection3_h1_1 {
+    font-size: 4rem;
+  }
+  .Hsection3_div_border {
+    margin: auto;
+    width: 90%;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1900px) {
+  .Hsection3_join_Challenge_p1{
+font-size: 6rem;
+  }
+
+  .Hsection3_join_Challenge_p2{
+    font-size: 2rem;
+  }
+  }

@@ -1,0 +1,89 @@
+.booo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 0 0.2rem;
+}
+
+.b1 {
+  width: 80%;
+  font-size: 0.5rem;
+}
+
+.s1 {
+  background-image: url("../../images/done_black_24dp.svg");
+  background-repeat: no-repeat;
+  width: 10%;
+}
+.b2 {
+  color: red;
+  text-align: center;
+  font-size: 0.5rem;
+  width: 20%;
+}
+
+.s2 {
+  font-size: 0.5rem;
+  width: 10%;
+}
+.b1 > button {
+  background-color: red;
+  color: white;
+  margin-right: 0.1rem;
+  display: inline-block;
+  border: 1px solid white;
+  padding: 1%;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+@media (min-width: 576px) {
+  .b1 {
+    width: 90%;
+    font-size: 0.7rem;
+  }
+
+  .s1 {
+    width: 8%;
+  }
+
+  .b2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .b1 {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .s1 {
+    width: 5%;
+  }
+}
+
+@media (min-width: 992px) {
+  .booo {
+    padding: 0 10%;
+  }
+}
+
+
+
+@media (min-width: 1400px) { 
+
+  .b1,.b2{
+    font-size: 1.4rem;
+  }
+ }
+
+
+ @media (min-width: 1500px) { 
+
+  .b1,.b2{
+    font-size: 2rem;
+  }
+ }

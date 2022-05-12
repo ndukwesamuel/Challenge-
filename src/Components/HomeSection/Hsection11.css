@@ -1,0 +1,30 @@
+.Hsection11 {
+  display: none;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+  .Hsection11 {
+    display: block;
+  }
+
+  .Hsection11 div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .Hsection11 div > img {
+    display: block;
+    width: 100%;
+  }
+
+  .Hsection11 div > p {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-style: oblique;
+    padding: 0 5rem;
+    text-align: center;
+  }
+}

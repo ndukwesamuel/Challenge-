@@ -1,0 +1,188 @@
+.Hsection9{
+  padding: 0 3%;
+}
+.Hsection9_display_felx_P {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.Hsection9_display_felx_P p {
+  margin-top: 1rem;
+}
+.Hsection9 > :first-child {
+  font-size: 2.5rem;
+  text-align: center;
+  /* font-size: 3rem; */
+  font-weight: 900;
+}
+
+.Hsec9_live {
+  background-color: #e84d35;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+}
+
+.Hsec9_live > :first-child {
+  font-size: 1.3rem;
+  font-weight: 900;
+  margin: 2% 0;
+}
+
+.Hsec9_live > :last-child {
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 0 4%;
+}
+.Hsection9_display_felx,
+.Hsection9_sec5 .Hsection9_sec4 {
+  display: flex;
+  flex-direction: column;
+}
+
+/* ....... */
+
+.Hsection9_display_felx_P,
+.Hsection9_Sec_two > p {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+.Hsection9_display_felx > div > img {
+  width: 32rem;
+  margin-top: 1rem;
+}
+
+.Hsection9_join_live {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--prymary-bg-clr);
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.Hsection9_sec4 > div > img {
+  margin: auto;
+  display: block;
+}
+
+.Hsection9_sec4 img {
+  width: 33rem;
+  display: block;
+}
+
+.Hsection9_sec4_sec2 {
+  font-size: 1.3rem;
+}
+
+.Hsection9_sec4_sec2 :first-child {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.Hsection9_sec4_sec2 > p {
+  margin-top: 1rem;
+}
+.Hsection9_sec5 > div > p {
+  font-size: 1rem;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+.Hsection9_sec5 :last-child > img {
+  display: block;
+  width: 24rem;
+  margin: auto;
+}
+
+.Hsection9_sec6 > p {
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+@media (min-width: 768px) {
+  .Hsection9_join_live {
+    font-size: 4rem;
+ }
+
+  .Hsection9 > p:first-child{
+    font-size: 3.875rem;
+    color: rgb(0, 36, 98);
+  }
+
+
+  .Hsection9_sec5 > div > p {
+    font-size: 1.5rem;
+  }
+
+  .Hsection9_sec5 :last-child > img {
+    width: 40rem;
+  }
+
+  .Hsection9_sec6 > p {
+    font-size: 1.5rem;
+  }
+
+  .Hsec9_live {
+    margin: auto;
+    width: 80%;
+
+  }
+  .Hsec9_live > :first-child{
+    font-weight: 600;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .Hsection9_sec5 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Hsection9_sec4 {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .Hsection9_sec4 > div > img {
+    width: 70rem;
+  }
+
+  .Hsection9_sec4_sec2 {
+    margin-left: 4rem;
+  }
+
+  .Hsection9_flex {
+    display: flex;
+  }
+
+  .Hsection9 > :first-child {
+    font-size: 3.5rem;
+  }
+
+  .Hsec9_live {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .test___ {
+    margin-left: 2rem;
+  }
+}
+
+
+
+@media screen and (min-width: 1600px) {
+.Hsection9{
+  width: 120rem;
+}
+
+.Hsec9_live > :first-child{
+  font-size: 5rem;
+}
+
+.Hsec9_live > :last-child{
+  font-size: 2rem;
+}
+}

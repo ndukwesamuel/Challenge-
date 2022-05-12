@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@1,700&family=Open+Sans:ital,wght@1,800&display=swap");
+
+.Homemob_div {
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.Homemob_div_p1 {
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+
+.Homemob_div_img {
+  width: 20rem;
+  height: 5px;
+  position: relative;
+  bottom: 3.5rem;
+}
+
+.Homemob_div_p2 {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.Homemob_div_p3 {
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+@media (min-width: 576px) {
+  .Homemob_div {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .Homemob_div_p1 {
+    font-weight: 900;
+    font-size: 1.7rem;
+  }
+
+  .Homemob_div_img {
+    width: 30rem;
+    height: 5px;
+    position: relative;
+    bottom: 5.5rem;
+  }
+
+  .Homemob_div_p2 {
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+
+  .Homemob_div_p3 {
+    font-size: 1.4rem;
+
+    font-weight: 800;
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  .HomeDex_div {
+    font-weight: 900;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: "Aleo", serif;
+  }
+
+  .HomeDex_h1_span_1 {
+    font-weight: bold;
+    font-size: 4.2rem;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .HomeDex_p1 {
+    font-size: 2.7rem;
+    margin-bottom: -2rem;
+    margin-top: -1rem;
+  }
+
+  .HomeDex_p2 {
+    font-size: 5rem;
+  }
+  .HomeDex_div strike {
+    color: red;
+  }
+
+  .HomeDex_img {
+    width: 1px;
+  }
+}
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+  .HomeDex_div {
+    width: 100%;
+  }
+
+  .HomeDex_h1_span_1 {
+    font-size: 5rem;
+  }
+
+  .HomeDex_p1 {
+    font-size: 3.2rem;
+  }
+
+  .HomeDex_p2 {
+    font-size: 6rem;
+  }
+}

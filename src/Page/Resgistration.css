@@ -1,0 +1,215 @@
+.Resgistration {
+  background-color: var(--prymary-bg-clr);
+  /* padding: 3rem; */
+  padding-top: 3rem;
+}
+
+.Resgistration_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  flex-direction: column-reverse;
+}
+
+.Resgistration_logo_div img {
+  margin: auto;
+  display: block;
+  width: 70%;
+}
+
+.Resgistration_section_one {
+  margin-top: 5rem;
+  padding: 0 2%;
+  margin-bottom: 1rem;
+}
+
+.Resgistration_section_one form {
+  background-color: white;
+  padding: 0.3rem;
+  border-radius: 1rem;
+}
+
+.Resgistration_section_one form > :first-child {
+  font-weight: bolder;
+  font-size: 1.9rem;
+  color: var(--prymary-bg-clr);
+  text-align: center;
+}
+
+.the_button > button {
+  display: block;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.the_button :first-child {
+  display: none;
+}
+
+.Resgistration_section_one form input {
+  /* width: 33rem; */
+  height: 3.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.Resgistration_section_one form :last-child {
+  text-align: center;
+}
+
+.Resgistration_section_one form :last-child button {
+  width: 11rem;
+}
+
+.Resgistration_section_one form :last-child > :first-child {
+  margin-right: 3rem;
+}
+
+.Resgistration_section_two {
+  color: white;
+}
+
+.Resgistration_section_two_video,
+.do_acc {
+  display: none;
+}
+
+.Resgistration_section_two_p p {
+  text-align: center;
+  margin-bottom: -0.1rem;
+}
+
+.Resgistration_section_two_p :nth-child(2),
+.Resgistration_section_two_p :nth-child(3) {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: -1.5rem;
+}
+
+.Resgistration_section_two :nth-child(3) {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.Resgistration_section_two > :last-child {
+  background-color: #e84d35;
+  text-align: center;
+  margin: 0 1rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.Resgistration_section_two > :last-child > :first-child {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+@media (min-width: 992px) {
+  .Resgistration {
+    background-color: var(--prymary-bg-clr);
+    /* padding: 3rem;  */
+  }
+
+  .Resgistration_logo_div {
+  }
+
+  .Resgistration_logo_div img {
+    margin: auto;
+    display: block;
+  }
+
+  .Resgistration_section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .Resgistration_section_one {
+    margin-top: 5rem;
+  }
+
+  .Resgistration_section_one form {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 1rem;
+  }
+
+  .Resgistration_section_one form > :first-child {
+    font-weight: bolder;
+    font-size: 3rem;
+    color: var(--prymary-bg-clr);
+    text-align: center;
+  }
+
+  .Resgistration_section_one form input {
+    width: 33rem;
+    height: 3.5rem;
+    border-radius: 5rem;
+    text-align: center;
+  }
+
+  .Resgistration_section_one form :last-child {
+    text-align: center;
+  }
+
+  .Resgistration_section_one form :last-child button {
+    width: 11rem;
+  }
+
+  .Resgistration_section_one form :last-child > :first-child {
+    margin-right: 3rem;
+  }
+
+  .Resgistration_section_two {
+    color: white;
+  }
+
+  .Resgistration_section_two_video {
+    margin-top: 3rem;
+  }
+
+  .Resgistration_section_two video {
+    width: 50rem;
+    display: block;
+    margin: auto;
+    padding-right: 1rem;
+  }
+
+  .Resgistration_section_two_p p {
+    text-align: center;
+    margin-bottom: -0.1rem;
+  }
+
+  .Resgistration_section_two_p :nth-child(2),
+  .Resgistration_section_two_p :nth-child(3) {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: -1.5rem;
+  }
+
+  .Resgistration_section_two :nth-child(3) {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .Resgistration_section_two > :last-child {
+    background-color: #e84d35;
+    text-align: center;
+    padding: 0 3rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .Resgistration_section_two > :last-child > :first-child {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+  .Resgistration_section_two_video,
+  .do_acc {
+    display: block;
+  }
+}

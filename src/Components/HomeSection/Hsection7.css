@@ -1,0 +1,134 @@
+.Hsection7{
+  padding: 0 3%;
+}
+.Hsection7_Sec_one img {
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.Hsection7_Sec_one_img {
+  margin-top: 1rem;
+}
+.Hsection7_Sec_one_img > img {
+  margin: auto;
+  display: block;
+}
+
+.Hsection7_Sec_two > :first-child {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  color: var(--prymary-bg-clr);
+}
+
+.Hsection7_Sec_two > div > img {
+  width: 20rem;
+  margin: auto;
+  display: block;
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+.Hsection7_Sec_two_p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  /* background-color: red; */
+}
+
+.Hsection7_Sec_two_p > p {
+  margin-top: 1rem;
+}
+.Hsection7_sec > img {
+  width: 30rem;
+  margin: auto;
+  display: block;
+  margin-bottom: 2rem;
+  /* padding: 2rem; */
+  margin-top: 2rem;
+}
+
+.Hsection7_sec_p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.Hsection7_sec_p > p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.increas_bold {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+  .Hsection7_sec_p {
+    font-size: 2rem;
+    text-align: justify;
+    padding: 0 3rem;
+  }
+  .Hsection7_sec > img {
+    width: 90%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .Hsection7 {
+    display: flex;
+    flex-direction: row;
+  }
+  .Hsection7_Sec_two_p {
+    font-size: 2rem;
+  }
+
+  .Hsection7_sec__ {
+    margin: 0 15%;
+  }
+  /* .Hsection7_Sec_one > div > div {
+    margin-right: -35rem;
+  } */
+
+  .Hsection7_Sec_one > div > div > img {
+    margin: 0;
+    width: 50%;
+    display: block;
+  }
+
+  .Hsection7_sec > img {
+    width: 60rem;
+    margin: auto;
+    display: block;
+    margin-bottom: 2rem;
+    /* padding: 2rem; */
+  }
+
+  .Hsection7_sec_p > p {
+    font-size: 2rem;
+  }
+  .Hsection7_sec > img {
+    width: 90%;
+    margin-top: 3rem;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1600px) {
+.Hsection7 {
+  width: 120rem;
+  margin: auto;
+}
+.Hsection7_Sec_two > :first-child{
+  font-size: 3rem;
+}
+
+.Hsection7_Sec_two > div > img{
+  width: 35rem;
+}
+}

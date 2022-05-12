@@ -1,0 +1,320 @@
+.Hsection10 {
+  border: 2px solid #131d41;
+}
+
+.Hsection10_Header {
+  background-color: #131d41;
+  color: white;
+  padding: 1rem;
+}
+
+.Hsection10_Header :first-child {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Hsection10_Header :nth-child(2) {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Hsection10_Header :nth-child(3) {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Hsection10_Section1 {
+  padding-top: 2rem 0;
+}
+
+.Hsection10_Section1_img2 {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.Hsection10_Section1_Total_Value {
+  font-size: 2rem;
+  color: rgb(255, 0, 5);
+  font-weight: 700;
+}
+
+.Hsection10_Section1_Live {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.Hsection10_Section1_Accept {
+  color: var(--prymary-bg-clr);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.Hsection10_Section1_Join {
+  background-color: #131d41;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  padding-top: 1rem;
+}
+
+.Hsection10_Section1_Join :first-child {
+  font-size: 1.5rem;
+}
+
+.Hsection10_Section1_Join :last-child {
+  color: var(--btn-clr);
+  font-size: 2rem;
+}
+
+.display_block {
+  display: block;
+}
+
+.step1_input_one,
+.step1_input_two,
+.step1_input_three,
+.step1_input_four {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.Hsection10_form_step1_input {
+  width: 100%;
+  height: 2.5rem;
+  padding-left: 2rem;
+}
+
+.step1_input_five {
+  margin: 0 1rem;
+}
+
+.step1_input_five :first-child {
+  width: 60%;
+  height: 3rem;
+  margin-right: 0.5rem;
+  /* border: 1px solid black; */
+}
+
+.step1_input_five :last-child {
+  width: 35%;
+  height: 3rem;
+  /* border: 1px solid black; */
+}
+
+.Hsection10_form_step1_form_header {
+  background-color: rgb(228, 59, 44);
+  margin-top: 1rem;
+  color: white;
+  font-weight: 900;
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Hsection10_form_step1_button {
+  margin: auto;
+  display: block;
+  width: 70%;
+  background: var(--prymary-bg-clr);
+  color: white;
+  font-size: 2rem;
+  border: none;
+  font-weight: 900;
+  margin-top: 1rem;
+}
+
+.form_img3 {
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+.Hsection10_form_step1_last {
+  border: 3px dashed #8aa9c1;
+  margin: auto;
+  width: 95%;
+  text-align: center;
+  background-color: #e1f2ff;
+}
+
+.Hsection10_form_step1_result {
+  background-color: var(--prymary-bg-clr);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding: 1rem 2rem;
+  margin: auto;
+  width: 95%;
+  margin-top: 1rem;
+}
+
+.Hsection10_form_Span {
+  color: var(--btn-clr);
+  text-decoration: underline;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-right: 1rem;
+}
+
+.clearfix {
+  /* display: flex;
+  justify-content: space-between;
+  gap: 70%; */
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  margin: 1rem 1rem;
+}
+
+.pull-left {
+  margin-left: 1rem;
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
+.clearfix1 {
+  margin: 0 1rem;
+}
+
+.pull-left1 {
+  float: left;
+  width: 70%;
+}
+
+.cl__ {
+}
+
+.clearfix2 {
+  clear: both;
+  border-top: 2px solid #ddd;
+  font-weight: bold;
+  margin: 1rem 1rem;
+  padding-top: 1rem;
+}
+
+.sub_but {
+  padding: 1rem;
+
+  margin: auto;
+  display: block;
+  width: 90%;
+  background: var(--prymary-bg-clr);
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  font-weight: 900;
+  margin-top: 1rem;
+}
+.lock_he10 {
+  margin: 1rem 1rem;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+.credit_card {
+  width: 17rem;
+  margin: auto;
+  display: block;
+}
+
+.Hsection10_Section2 > form input {
+  border: 2px solid  #b0baca;
+}
+
+@media (min-width: 768px) {
+  .Hsection10_Header :nth-child(2) {
+    font-size: 2.7rem;
+  }
+
+  .Hsection10_Header :nth-child(3) {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .Hsection10_Section1_img1 {
+    display: block;
+    width: 95%;
+    margin: auto;
+  }
+
+  .Hsection10_Section1_Total_Value {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+
+  .Hsection10_Section1_Accept {
+    color: var(--prymary-bg-clr);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .Hsection10_Section1_Accept :last-child {
+    color: var(--prymary-bg-clr);
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: -1rem;
+  }
+
+  .Hsection10_Section1_Join :last-child {
+    font-size: 6rem;
+    font-weight: 900;
+  }
+
+  .Hsection10_form_step1_input {
+    width: 95%;
+    height: 3.5rem;
+    padding-left: 2rem;
+    margin: auto;
+    display: block;
+  }
+  .step1_input_five {
+    margin: auto;
+    width: 90%;
+  }
+
+  .Hsection10_form_Span {
+    font-size: 1.5rem;
+  }
+
+  .Hsection10_form_P {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .Hsection10 {
+    margin: auto;
+    display: block;
+    width: 90%;
+  }
+
+  .Hsection10_Section1_Accept :last-child {
+    font-size: 5rem;
+  }
+
+  .Hsection10_form_step1_input {
+    width: 95%;
+    height: 3.5rem;
+    padding-left: 2rem;
+    margin: auto;
+    display: block;
+    border: 1px solid black;
+  }
+  .step1_input_five {
+    margin: auto;
+    width: 90%;
+  }
+}
