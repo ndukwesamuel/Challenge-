@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-
-import { getRemainingTimeUntilMsTimestamp } from "../CountDown/CountdownTimerUtils";
+import CountDown from "../CountDown/CountDown";
 
 let Hsection1_img =
   "https://res.cloudinary.com/dkzds0azx/image/upload/v1652279294/oneful/images/bord2_grrhsc.png";
@@ -8,25 +7,7 @@ let Hsection1_img =
 let main_vid =
   "https://res.cloudinary.com/dkzds0azx/video/upload/v1652279055/oneful/video/Covenants_soqpyn.mp4";
 
-const defaultRemainingTime = {
-  seconds: "00",
-  minutes: "00",
-  hours: "00",
-  days: "00",
-};
 const Hsection1 = ({ countdownTimestampMs }) => {
-  const [remainingTime, setRemainingTime] = useState(defaultRemainingTime);
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      updateRemainingTime(countdownTimestampMs);
-    }, 1000);
-    return () => clearInterval(intervalId);
-  }, [countdownTimestampMs]);
-
-  function updateRemainingTime(countdown) {
-    setRemainingTime(getRemainingTimeUntilMsTimestamp(countdown));
-  }
-
   return (
     <>
       <div>
@@ -59,26 +40,8 @@ const Hsection1 = ({ countdownTimestampMs }) => {
                   />
                 </div>
 
-                <div className=" Hsection1_count_down">
-                  <div className="Hsection1_count_down_flex_item">
-                    <div className="day">{remainingTime.days} </div>
-                    <p>Days</p>
-                  </div>
-
-                  <div className="Hsection1_count_down_flex_item">
-                    <div className="hour">{remainingTime.hours} </div>
-                    <p>hours</p>
-                  </div>
-
-                  <div className="Hsection1_count_down_flex_item">
-                    <div className="minute">{remainingTime.minutes} </div>
-                    <p>minute</p>
-                  </div>
-
-                  <div className="Hsection1_count_down_flex_item">
-                    <div className="second">{remainingTime.seconds}</div>
-                    <p>Seconds</p>
-                  </div>
+                <div>
+                  <CountDown />
                 </div>
 
                 <p>Registration Ends Apr 3rd At 10PM ET! </p>
