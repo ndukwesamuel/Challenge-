@@ -5,9 +5,7 @@ import "./countdown.css";
 function CountDown() {
   const calculateTimeLeft = () => {
     let year = new Date().getFullYear();
-    //  the last day of sale will be fixed
     const difference = +new Date(`06/1/${year}`) - +new Date();
-
     let timeLeft = {};
 
     if (difference > 0) {
@@ -72,7 +70,7 @@ function CountDown() {
           </div>
         </div>
       ) : (
-        <div className="timeUp">Time's up! </div>
+        <div className="timeUp"> Time's Up! </div>
       )}
     </div>
   );
